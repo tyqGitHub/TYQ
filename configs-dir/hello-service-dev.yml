@@ -1,3 +1,7 @@
 server:
   port: 8888
-hello: 张老师
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+hello: 王老师
