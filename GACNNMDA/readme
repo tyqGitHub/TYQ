@@ -1,0 +1,24 @@
+**Dataset:**
+Folder MDAD:
+drugs.xlsx:drugs
+microbes.xlsx:microbes
+disease.xlsx:diseases associated with microbes and drugs
+drug_microbe_matrix.txt: known microbe-drug associations
+drug_with_disease.txt:known drug-disease associations indexs
+microbe_with_disease.txt:known microbe-disease associations indexs
+known.txt:known microbe-drug association indexs
+unknown.txt:unknown microbe-drug association indexs
+drug_drug_interactions.xlsx:drug-drug interactions
+microbe_microbe_interactions.xlsx:microbe-microbe interactions
+drug_structure_sim.txt:drug structural similarity
+microbe_function_sim.txt:microbe functional similarity
+
+#Environment
+python 3.7  
+pytorch 1.10.2 
+scikit-learn 1.0.1
+numpy 1.17.4
+#Usage
+run demo.py
+
+
